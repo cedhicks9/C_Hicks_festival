@@ -115,3 +115,33 @@ text-align: center;
    padding: 2%;
 
  }
+ @media screen and
+(max-width:800px)
+{
+  *{
+    font-size: 80%;
+  }
+  .open{
+    display: block;
+    font-size:150% ;
+  }
+  .nav,a{
+    font-size: 200%;
+  }
+  .days{
+    display:block;
+    width: 50%;
+    font-size: 150%;
+    margin-left: 25%;
+
+    
+
+  }
+  .proceeds{
+    font-size: 80%;
+  }
+  .prices{
+    font-size:200%;
+  }
+
+}
