@@ -67,9 +67,10 @@ color: #655826;
     display: flex;
     flex-direction: row;
     padding-top: 8%;
-    padding-left: 45%;
-    padding-right: 45%;
+    padding-left: 48%;
+    /*padding-right: 40%;*/
     width: 100%;
+    
    
  }
  .events{
@@ -115,6 +116,31 @@ text-align: center;
    padding: 2%;
 
  }
+ .plogo{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 5%;
+   padding-top: 5%;
+   padding-left: 45%;
+align-items: center;
+   
+ }
+ .slsf{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-right: 60%;
+  position: relative;
+   top: 2%;
+   left: 2%;
+   z-index: 1;
+
+
+ }
+ 
  @media screen and
 (max-width:800px)
 {
@@ -143,5 +169,4 @@ text-align: center;
   .prices{
     font-size:200%;
   }
-
 }
