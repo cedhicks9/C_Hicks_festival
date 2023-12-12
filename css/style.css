@@ -7,6 +7,7 @@ body{
     min-height: 100vh;
     width: 100%;
 background-color: #fbfb95;
+
 }
 p {
     font-family: 'Merriweather', serif; ;
@@ -37,6 +38,7 @@ color: #655826;
   font-size: 1.2em;
    padding: 1%;
    color: #655826;
+   text-decoration: none;
 
 
  }
@@ -46,7 +48,7 @@ color: #655826;
  .open{
     display: flex;
     flex-direction: row;
-    padding-top: 8%;
+    padding-top: 3%;
     padding-left: 25%;
     padding-right: 25%;
     width: 100%;
@@ -140,6 +142,33 @@ align-items: center;
 
 
  }
+ #festival{
+  text-align: center;
+  font-family:'Anton', sans-serif; 
+  font-size: 4em;
+  text-decoration-color: #e6408a;
+  animation-name:festival;
+animation-delay: none;
+animation-direction:forwards;
+animation-duration: 6s;
+animation-fill-mode:forwards ;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+  
+ }
+ @keyframes festival{
+  from{
+    font-family:'Anton', sans-serif; 
+  font-size: 4em;
+  color: #e6408a;
+  }
+  to{  font-family:'Anton', sans-serif; 
+    font-size: 4em;
+    color: #addeee;
+
+  }
+ }
+
  
  @media screen and
 (max-width:800px)
