@@ -101,7 +101,7 @@ border-color: #e6408a;
     padding: 2%;
     
     width: 100%;
-    font-family: 'Merriweather', serif; ;
+    font-family: 'Merriweather', serif; 
     font-size: 1em;
     font-weight: 300;
     margin-left: 5%;
@@ -155,6 +155,17 @@ animation-fill-mode:forwards ;
 animation-iteration-count: infinite;
 animation-timing-function: ease-in-out;
   
+ }
+ .fruits{
+  box-sizing:border-box;
+  font-family: 'Merriweather', serif; 
+  align-items: center;
+  text-align: center;
+  font-size: 3em;
+  padding: 10%;
+  color: #ffffff00;
+  background-image: url("../activities/img/fruits.png");
+
  }
  @keyframes festival{
   from{
