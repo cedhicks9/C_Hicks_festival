@@ -1,212 +1,212 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{  
-    min-height: 100vh;
-    width: 100%;
-background-color: #fbfb95;
-
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fbfb95;
 }
 p {
-    font-family: 'Merriweather', serif; ;
-    font-size: 1em;
-    font-weight: 300;
-    color: #655826;
-  
- }
- h2{  
-    font-family: 'Merriweather', serif; ;
-    font-size: 2em;
-    font-weight: 300;
-color: #655826;
+  font-family: "Merriweather", serif;
+  font-size: 1em;
+  font-weight: 300;
+  color: #655826;
+}
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 2em;
+  font-weight: 300;
+  color: #655826;
+}
+h1 {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 4em;
+  color: #655826;
+}
 
- }
- h1{
-    text-align: center;
-    font-family:'Anton', sans-serif; 
-    font-size: 4em;
-    color: #655826;
-
-
- }
-
- nav,a{
-    font-family:'Anton', sans-serif; 
+nav,
+a {
+  font-family: "Anton", sans-serif;
   text-align: right;
   font-size: 1.2em;
-   padding: 1%;
-   color: #655826;
-   text-decoration: none;
+  padding: 1%;
+  color: #655826;
+  text-decoration: none;
+}
+nav,
+a:hover {
+  color: #e6408a;
+}
+.open {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3%;
+  padding-left: 25%;
+  padding-right: 25%;
+  width: 100%;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3%;
+  padding-left: 25%;
+  padding-right: 25%;
+  width: 100%;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 8%;
+  padding-left: 48%;
+  /*padding-right: 40%;*/
+  width: 100%;
+}
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20%;
+  margin: 3%;
+  padding: 2%;
+  background-color: #addeee;
+  border-style: inset;
+  border-width: 0.8%;
+  border-color: #e6408a;
+}
+.prices {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
 
-
- }
- nav,a:hover{
-    color: #e6408a;
- }
- .open{
-    display: flex;
-    flex-direction: row;
-    padding-top: 3%;
-    padding-left: 25%;
-    padding-right: 25%;
-    width: 100%;
-   
-
-    
- }
- .about{
-    display: flex;
-    flex-direction: row;
-    padding-top: 8%;
-    padding-left: 25%;
-    padding-right: 25%;
-    width: 100%;
-
- }
- footer{
-    display: flex;
-    flex-direction: row;
-    padding-top: 8%;
-    padding-left: 48%;
-    /*padding-right: 40%;*/
-    width: 100%;
-    
-   
- }
- .events{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
- }
- .days{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-   width: 20%;
-   margin: 3%;
-   padding: 2%;
-background-color:#addeee ;
-border-style: inset;
-border-width:.8% ;
-border-color: #e6408a;
- }
- .prices{
-    display: flex;
-    flex-direction: row;
-    padding: 2%;
-    
-    width: 100%;
-    font-family: 'Merriweather', serif; 
-    font-size: 1em;
-    font-weight: 300;
-    margin-left: 5%;
-color: #655826;
-text-align: center;
-
- }
- .proceeds{ display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-   width: 100%;
-   margin: 3%;
-   padding: 2%;
-
- }
- .plogo{
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   justify-content: space-between;
-   width: 5%;
-   padding-top: 5%;
-   padding-left: 45%;
-align-items: center;
-   
- }
- .slsf{
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   justify-content: space-between;
-   padding-right: 60%;
-  position: relative;
-   top: 2%;
-   left: 2%;
-   z-index: 1;
-
-
- }
- #festival{
+  width: 100%;
+  font-family: "Merriweather", serif;
+  font-size: 1em;
+  font-weight: 300;
+  margin-left: 5%;
+  color: #655826;
   text-align: center;
-  font-family:'Anton', sans-serif; 
+}
+.proceeds {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 3%;
+  padding: 2%;
+}
+.plogo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 5%;
+  padding-top: 5%;
+  padding-left: 45%;
+  align-items: center;
+}
+.slsf {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 60%;
+  position: relative;
+  top: 2%;
+  left: 2%;
+  z-index: 1;
+}
+.festival {
+  text-align: center;
+  font-family: "Anton", sans-serif;
   font-size: 4em;
   text-decoration-color: #e6408a;
-  animation-name:festival;
-animation-delay: none;
-animation-direction:forwards;
-animation-duration: 6s;
-animation-fill-mode:forwards ;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
-  
- }
- .fruits{
-  box-sizing:border-box;
-  font-family: 'Merriweather', serif; 
+  animation-name: festival;
+  animation-delay: none;
+  animation-direction: forwards;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.fruits {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
   align-items: center;
   text-align: center;
   font-size: 3em;
   padding: 10%;
   color: #ffffff00;
   background-image: url("../activities/img/fruits.png");
+}
+.tote{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  justify-content: space-between;
+  text-align: left;
+  width: 75%;
+  padding-top: 5%;
+  padding-left: 27%;
+  align-items: center;
 
- }
- @keyframes festival{
-  from{
-    font-family:'Anton', sans-serif; 
-  font-size: 4em;
-  color: #e6408a;
+}
+@keyframes festival {
+  from {
+    font-family: "Anton", sans-serif;
+    font-size: 4em;
+    color: #e6408a;
   }
-  to{  font-family:'Anton', sans-serif; 
+  to {
+    font-family: "Anton", sans-serif;
     font-size: 4em;
     color: #addeee;
-
   }
- }
+}
 
- 
- @media screen and
-(max-width:800px)
-{
-  *{
+@media screen and (max-width: 800px) {
+  * {
     font-size: 80%;
   }
-  .open{
+  .open {
     display: block;
-    font-size:150% ;
+    font-size: 150%;
   }
-  .nav,a{
+  .nav,
+  a {
     font-size: 200%;
   }
-  .days{
-    display:block;
+  .days {
+    display: block;
     width: 50%;
     font-size: 150%;
     margin-left: 25%;
-
-    
-
   }
-  .proceeds{
+  .proceeds {
     font-size: 80%;
   }
-  .prices{
-    font-size:200%;
+  .prices {
+    font-size: 200%;
+  }
+  .about{
+    display: block;
+    font-size:150%;
+
+  }
+  .tote{
+    font-size: 200%;
   }
 }
